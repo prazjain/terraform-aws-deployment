@@ -43,7 +43,7 @@ To clean up this environment :
 
 #### Install Terraform
 
-[Download Terraform](https://www.https://www.terraform.io/downloads.html)
+[Download Terraform](https://www.terraform.io/downloads.html)
 
 #### AWS Setup
 
