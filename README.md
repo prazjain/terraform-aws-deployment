@@ -28,11 +28,12 @@ It will generate :
 
  * Virtual Private Cloud (VPC)  
  * Configurable number of Subnets in the VPC
- * Configurable number of Amazon EC2 instances
- * Configurable Amazon Machine Images (AMI) setup on those instances.
+ * Create a template EC2 Instance with Nginx server, and other setup.
+ * Create a AMI with above template EC2 Instance.
  * Amazon EC2 instances and Subnets are spread out over multiple availablility regions
  * Set up Application Load Balancer
- * Install Nginx webserver on EC2 instances 
+ * Configure Nginx logs to go to S3 bucket
+ * Create Autoscaling configuration using above AMI.
  * Navigate to the URL shown in script output, if all has gone well, you will see nginx webserver's default web page.
   
 To clean up this environment :  
